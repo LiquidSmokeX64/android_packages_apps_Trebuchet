@@ -53,6 +53,9 @@ LOCAL_AAPT_FLAGS += --rename-manifest-package com.cyanogenmod.trebuchet
 
 LOCAL_OVERRIDES_PACKAGES := Launcher3
 
+# Enable dexpreopt to speed boot time
+WITH_DEXPREOPT := true
+
 include $(BUILD_PACKAGE)
 
 
